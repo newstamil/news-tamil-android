@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fenjuly.mylibrary.ToggleExpandLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/cat_main"
+    android:paddingLeft="10dp"
+    tools:showIn="@layout/activity_check_list">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/primary_light"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/x1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/primary_text"
+            android:text="Automatic date and time" />
+
+        <TextView
+            android:layout_below="@+id/x1"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use network provide time"
+            android:textColor="@color/secondary_text" />
+
+        <CheckBox
+            android:id="@+id/chk_main_hindu"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/primary_light"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/x2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/primary_text"
+            android:text="Automatic date and time" />
+
+        <TextView
+            android:layout_below="@+id/x2"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use network provide time"
+            android:textColor="@color/secondary_text" />
+
+        <CheckBox
+            android:id="@+id/chk_main_dinamalar"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/primary_light"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/x3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/primary_text"
+            android:text="Automatic date and time" />
+
+        <TextView
+            android:layout_below="@+id/x3"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use network provide time"
+            android:textColor="@color/secondary_text" />
+
+        <CheckBox
+            android:id="@+id/chk_main_dinakaran"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/primary_light"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/x4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/primary_text"
+            android:text="Automatic date and time" />
+
+        <TextView
+            android:layout_below="@+id/x4"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use network provide time"
+            android:textColor="@color/secondary_text" />
+
+        <CheckBox
+            android:id="@+id/chk_main_dinatanthi"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/primary_light"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/x5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/primary_text"
+            android:text="Automatic date and time" />
+
+        <TextView
+            android:layout_below="@+id/x5"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use network provide time"
+            android:textColor="@color/secondary_text" />
+
+        <CheckBox
+            android:id="@+id/chk_main_dinamani"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/primary_light"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/x6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/primary_text"
+            android:text="Automatic date and time" />
+
+        <TextView
+            android:layout_below="@+id/x6"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use network provide time"
+            android:textColor="@color/secondary_text" />
+
+        <CheckBox
+            android:id="@+id/chk_main_tamilmurasu"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/primary_light"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/x7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/primary_text"
+            android:text="Automatic date and time" />
+
+        <TextView
+            android:layout_below="@+id/x7"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use network provide time"
+            android:textColor="@color/secondary_text" />
+
+        <CheckBox
+            android:id="@+id/chk_main_malaimalar"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/primary_light"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/x8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/primary_text"
+            android:text="Automatic date and time" />
+
+        <TextView
+            android:layout_below="@+id/x8"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use network provide time"
+            android:textColor="@color/secondary_text" />
+
+        <CheckBox
+            android:id="@+id/chk_main_thatstamil"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/primary_light"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/x9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/primary_text"
+            android:text="Automatic date and time" />
+
+        <TextView
+            android:layout_below="@+id/x9"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use network provide time"
+            android:textColor="@color/secondary_text" />
+
+        <CheckBox
+            android:id="@+id/chk_main_dinaboomi"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/primary_light"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/x10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/primary_text"
+            android:text="Automatic date and time" />
+
+        <TextView
+            android:layout_below="@+id/x10"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use network provide time"
+            android:textColor="@color/secondary_text" />
+
+        <CheckBox
+            android:id="@+id/chk_main_vikadan"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/primary_light"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/x11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/primary_text"
+            android:text="Automatic date and time" />
+
+        <TextView
+            android:layout_below="@+id/x11"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use network provide time"
+            android:textColor="@color/secondary_text" />
+
+        <CheckBox
+            android:id="@+id/chk_main_nakeeran"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/primary_text"
+            android:text="Main Category" />
+
+        <TextView
+            android:layout_below="@+id/x"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use network provide time"
+            android:textColor="@color/secondary_text" />
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/switch_cat_main"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+    </RelativeLayout>
+</com.fenjuly.mylibrary.ToggleExpandLayout>

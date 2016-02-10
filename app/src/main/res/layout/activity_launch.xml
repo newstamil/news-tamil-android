@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_height="fill_parent"
+    android:background="@color/primary"
+    tools:context=".LaunchActivity"
+    >
+
+    <ProgressBar
+        android:id="@+id/launch_progress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/loading_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/launch_progress"
+        android:text="@string/launch_progress" />
+
+</RelativeLayout>
